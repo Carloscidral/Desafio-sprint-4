@@ -1,0 +1,118 @@
+.txt_promocional {
+    flex: 0 0 300px;
+    padding-right: 20px;
+}
+
+.txt_promocional p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+    margin: 20px 100px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.video_promocional {
+    flex: 1;
+    min-width: 0;
+}
+
+.video_promocional iframe {
+    width: 90%;
+    height: 500px;
+    border-radius: 8px;
+    border: none;
+}
+
+.carros {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+input[type="checkbox"] {
+    width: 25px;         
+    height: 25px;
+    cursor: pointer;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .txt_input {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+.txt_input p {
+    margin: 0px;
+}
+
+.preco {
+    color: #000;
+}
+
+.input_1 {
+    
+  font-size: 16px;
+  line-height: 1.2;
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    align-items: flex-start;
+    margin-top: 2px;
+}
+
+
+
+.input_2 {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    align-items: flex-start;
+    margin-top: 2px;
+}
+
+  .input_3 {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    align-items: flex-start;
+    margin-top: 2px;
+  }
+
+
+  .botao_azul {
+    margin: 10px;
+    padding: 10px;
+    background-color: #007BFF;   
+    color: white;                
+    border: none;                
+    padding: 10px 20px;         
+    font-size: 16px;
+    border-radius: 8px;          
+    cursor: pointer;
+    display: inline-block;       
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .botao_azul:hover {
+    background-color: #0056b3;  
+  }
+
+
+  
+  
+  
