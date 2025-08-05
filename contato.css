@@ -27,6 +27,17 @@
     padding: 40px;
   }
 
+  .lado-esquerdo img {
+    width: 400px;            
+    max-width: 100%;
+  }
+  
+  .lado-direito form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+
   .carro {
     width: 400px;
     margin-right: 40px;
