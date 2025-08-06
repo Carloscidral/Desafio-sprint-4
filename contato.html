@@ -28,16 +28,16 @@
         <div class="lado_direito">
         <form class="formulario">
             <h2>Sobre você</h2>
-            <input type="text" placeholder="NOME DE USUARIO">
-            <input type="email" placeholder="EMAIL PARA CONTATO">
-            <input type="tel" placeholder="TELEFONE">
-            <select>
-                <option>TIPO DO CONTATO</option>
+            <input type="text" placeholder="NOME DE USUARIO" required>
+            <input type="email" placeholder="EMAIL PARA CONTATO" required>
+            <input type="number" placeholder="TELEFONE" required>
+            <select required>
+                <option value="" disabled selected hidden>Tipo de Contato</option>
                 <option>ELOGIO</option>
                 <option>RECLAMAÇÃO</option>
                 <option>SOLICITAÇÃO</option>
             </select>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Escreva uma mensagem"></textarea>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Escreva uma mensagem" required></textarea>
             <button type="submit">Enviar</button>
          </form>
        </div>

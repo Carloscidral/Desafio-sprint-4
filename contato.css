@@ -86,3 +86,32 @@
     height: 40px;
     
   }
+
+  @media (max-width: 600px) {
+     .container {
+    height: auto;
+     }
+
+     .carro {
+      height: auto;
+      width: 20vw;
+     }
+  }
+
+  @media (max-width: 600px) {
+    footer img {
+      display: flex;
+      flex-direction: column;
+    }
+    .redesSociais p {
+      display: none;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .img_info {
+      width: 25px;
+      height: auto;
+    }
+
+    }

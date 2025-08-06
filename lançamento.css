@@ -115,6 +115,41 @@ input[type="checkbox"] {
   }
 
 
+  @media (max-width: 600px) {
+    main {
+      max-width: none;
+        height: auto;
+        width: 100vw;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .carros div img {
+      height: auto;
+      width: 50px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    footer img {
+      display: flex;
+      flex-direction: column;
+    }
+    .redesSociais p {
+      display: none;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .img_info {
+      width: 25px;
+      height: auto;
+    }
+
+    }
+  
+
+
   
   
   
