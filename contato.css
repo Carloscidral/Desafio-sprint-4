@@ -90,6 +90,9 @@
   @media (max-width: 600px) {
      .container {
     height: auto;
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
      }
 
      .carro {
@@ -98,17 +101,18 @@
      }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     footer img {
       display: flex;
       flex-direction: column;
+      gap: 20px;
     }
     .redesSociais p {
       display: none;
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     .img_info {
       width: 25px;
       height: auto;

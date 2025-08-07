@@ -115,22 +115,25 @@ input[type="checkbox"] {
   }
 
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     main {
-      max-width: none;
+      max-width: 100%;
         height: auto;
-        width: 100vw;
+        width: 100%;
+        padding: 0;
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     .carros div img {
       height: auto;
-      width: 50px;
+      width: 100%;
+      max-width: 100%;
+      padding: 0;
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     footer img {
       display: flex;
       flex-direction: column;
@@ -140,10 +143,12 @@ input[type="checkbox"] {
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     .img_info {
-      width: 25px;
+      width: 100%;
+      max-width: 100%;
       height: auto;
+      padding: 0;
     }
 
     }

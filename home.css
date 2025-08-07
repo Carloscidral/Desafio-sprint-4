@@ -3,30 +3,18 @@ max-width: 70%;
 height: auto;
 }
 
-@media (max-width: 600px) {
-    main .img_principal img {
-        max-width: none;
-        height: auto;
-        width: 100vw;
-    }
+main p {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 0 20px;
+}
 
+@media (max-width: 768px) {
+
+  main p {
+    font-size: 14px;
   }
+}
 
 
-  @media (max-width: 600px) {
-    footer img {
-      display: flex;
-      flex-direction: column;
-    }
-    .redesSociais p {
-      display: none;
-    }
-  }
-
-  @media (max-width: 600px) {
-    .img_info {
-      width: 25px;
-      height: auto;
-    }
-
-    }
+ 
